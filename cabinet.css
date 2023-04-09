@@ -609,45 +609,50 @@ a.page.active{
   background-color: #000000;
 }  
 .modal_box {
-  position: absolute;
-  z-index: 101;
-  padding: 14px;
-  background-color: #ffffff;
-  border: 1px solid #a0a0a0;
-  border-radius: 7px;
+position: absolute;
+z-index: 101;
+padding: 14px;
+background-color: #fff;
+border: 1px solid #a0a0a0;
+border-radius: 7px;
 }
+
 .modal_close {
-  position: absolute;
-  display: block;
-  left: -12px;
-  top: -12px;
-  height: 24px;
-  width: 24px;
-  border: 1px solid #a0a0a0;
-  border-radius: 12px;
-  background-color: #ffffff;
+position: absolute;
+display: block;
+left: -12px;
+top: -12px;
+height: 24px;
+width: 24px;
+border: 1px solid #a0a0a0;
+border-radius: 12px;
+background-color: #fff;
 }
+
 .modal_close:hover {
-  background: #ffffff;
+background-color: #fff;
 }
+
 #modal_window .nav_button {
-    padding: 5px 15px;
-    font-size: 16px;
+padding: 5px 15px;
+font-size: 16px;
 }
 
 .pretty_select_window input {
-    font-size: 9.5pt;
-    width: 170pt;
-    margin-top: 2.5pt;
+font-size: 9.5pt;
+width: 170pt;
+margin-top: 2.5pt;
 }
+
 .pretty_select_window select {
-    width: 200pt;
-    margin-top: 4pt;
-    display: block;
+width: 200pt;
+margin-top: 4pt;
+display: block;
 }
+
 .pretty_select_window a {
-    float: right;
-    font-size: 8pt;
-    display: block;
+float: right;
+font-size: 8pt;
+display: block;
 }
 
